@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_5VARIABLES"/>
+        <attribute name="authors" value="licce"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-28 04:54:01 p. m."/>
+        <attribute name="created" value="bGljY2U7TEFQVE9QLU5OM1ZQRUdKOzIwMjUtMDgtMjg7MDQ6MTM6MTUgcC4gbS47MzA4MQ=="/>
+        <attribute name="edited" value="bGljY2U7TEFQVE9QLU5OM1ZQRUdKOzIwMjUtMDgtMjg7MDQ6NTQ6MDEgcC4gbS47MTszMTg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <assign variable="nombre" expression="&quot;Alan Armando Rodriguez Jimenez&quot;"/>
+            <assign variable="edad" expression="18"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="edad" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
